@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AgricultureIrrigate</string>
+    <string name="loading">加载中......</string>
+    <string name="image_save_album">图片已保存至相册</string>
+    <string name="image_save_file">图片保存失败</string>
+    <string name="info_back">返回</string>
+    <string name="clear">清除</string>
+    <string name="net_response_return_error">服务器连接失败</string>
+    <string name="net_connect_error">网络连接失败,请检查网络</string>
+    <string name="net_connect_timeOut">网络连接超时,请稍后再试</string>
+    <string name="net_bad_netWork">服务器异常</string>
+    <string name="net_parse_error">数据解析异常,请联系客服</string>
+    <string name="net_unKnown_error">未知错误,请联系管理员</string>
+    <string name="load_error">加载错误</string>
+</resources>

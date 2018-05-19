@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolBarView">
+        <attr name="setTitleSize" format="dimension" />  <!--设置标题大小 默认为14-->
+        <attr name="setLeftSize" format="dimension" />   <!--设置左侧字体大小  默认为14-->
+        <attr name="setRightSize" format="dimension" />      <!--设置右侧字体大小  默认14-->
+        <attr name="setTitleText" format="string" />     <!--设置标题显示字体 必须设置-->
+        <attr name="setLeftText" format="string" />      <!--设置左侧标题  默认隐藏-->
+        <attr name="setRightText" format="string" />     <!--设置右侧标题  默认隐藏 (取消)-->
+        <attr name="setBgImage" format="integer" />      <!--设置背景图片  默认为纯色-->
+        <attr name="setBgColor" format="color" />        <!--设置背景颜色-->
+        <attr name="isShowLeft" format="boolean" />      <!--是否显示左侧的 箭头默认显示-->
+        <attr name="isShowLeftText" format="boolean" />  <!--是否显示左侧的文字 默认不显示-->
+        <attr name="isShowRightText" format="boolean" />  <!--是否显示右侧的文字 默认不显示-->
+        <attr name="isShowTitle" format="boolean" />    <!--是否显示中间标题 默认显示-->
+        <attr name="setLeftBackImage" format="integer" />  <!--设置左侧返回图片  默认为白色的-->
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomLinearLayout">
+        <attr name="setLeftIcon" format="integer"/> <!--设置左边的图片-->
+        <attr name="setLinearTitle" format="string"/> <!--设置标题栏的String-->
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer"></attr>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
